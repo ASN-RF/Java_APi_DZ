@@ -48,6 +48,11 @@ public class DZ_Sem_4
                 System.out.printf((gender.get(i) ? "M" : "Ж"));
                 System.out.println();
             }
+            System.out.println("Желаете выйти из программы или отсортировать по возрасту список?\nYes - отсортировать список\nNo - выйти");
+            String vibor = iScanner.next();
+            if (vibor.equals("Yes")){
+                // Пока не могу додуматься как отсортировать связаный список по индексу
+            }
     
         }
    
